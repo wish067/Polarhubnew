@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    ```
+    <title>PolarHub | India's Polar Science Portal</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="polar.css">
+    ```
+
+</head>
+
+<body>
+
+    ```
+    <!-- =========================
+     NAVBAR
+========================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                ✦
+            </div>
+
+            <div class="logo-text">
+                Polar<span>Hub</span>
+            </div>
+
+        </div>
+
+
+        <nav class="nav-links">
+
+            <a href="#repository">
+                Knowledge Repository
+            </a>
+
+            <a href="#stations">
+                Station Tracker
+            </a>
+
+            <a href="#media">
+                Media
+            </a>
+
+            <a href="#education">
+                Outreach & Education
+            </a>
+
+        </nav>
+
+
+        <div class="nav-right">
+
+            <input type="text" class="search-box" placeholder="Search...">
+
+            <div class="profile">
+                👤
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================
+     MAIN CONTENT
+========================== -->
+
+    <main>
+
+
+        <!-- =========================
+         HERO
+    ========================== -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="hero-small-title">
+                    INDIA IN POLAR REGIONS:
+                </p>
+
+                <h1>
+                    Exploring the Frontier of Climate Science
+                </h1>
+
+                <p class="hero-description">
+                    Centralized access to Arctic, Antarctic
+                    and Himalayan research initiatives.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+         FEATURE CARDS
+    ========================== -->
+
+        <section class="features">
+
+
+            <!-- Knowledge Repository -->
+
+            <div class="feature-card" id="repository">
+
+                <div class="feature-icon">
+                    📚
+                </div>
+
+                <h2>
+                    KNOWLEDGE REPOSITORY
+                </h2>
+
+                <p>
+                    Search and filter research papers.
+                </p>
+
+                <button class="card-button" onclick="showRepository()">
+                    Explore
+                </button>
+
+            </div>
+
+
+
+            <!-- Station Tracker -->
+
+            <div class="feature-card" id="stations">
+
+                <div class="feature-icon">
+                    📍
+                </div>
+
+                <h2>
+                    STATION TRACKER
+                </h2>
+
+                <p>
+                    View station status and locations.
+                </p>
+
+                <button class="card-button">
+                    View
+                </button>
+
+            </div>
+
+
+
+            <!-- Media Hub -->
+
+            <div class="feature-card" id="media">
+
+                <div class="feature-icon">
+                    🎥
+                </div>
+
+                <h2>
+                    MEDIA HUB
+                </h2>
+
+                <p>
+                    Explore photos and expedition videos.
+                </p>
+
+                <button class="card-button" onclick="showMedia()">
+                    Explore
+                </button>
+
+            </div>
+
+
+
+            <!-- Outreach & Education -->
+
+            <div class="feature-card" id="education">
+
+                <div class="feature-icon">
+                    🎓
+                </div>
+
+                <h2>
+                    OUTREACH & EDUCATION
+                </h2>
+
+                <p>
+                    Quizzes and student resources.
+                </p>
+
+                <button class="card-button">
+                    View
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+         KNOWLEDGE REPOSITORY
+    ========================== -->
+
+
+        <!-- Antarctic Research -->
+
+        <div class="research-card">
+
+            <img src="images/antarctic.jpg" alt="Antarctic polar research">
+
+            <h3>
+                Antarctic Research
+            </h3>
+
+            <p>
+                Discover research related to Antarctica
+                and its changing environment.
+            </p>
+
+            <button>
+                Read More
+            </button>
+
+        </div>
+
+
+
+        <!-- Arctic Research -->
+
+        <div class="research-card">
+
+            <img src="images/arctic.jpg" alt="Arctic polar research">
+
+            <h3>
+                Arctic Research
+            </h3>
+
+            <p>
+                Explore scientific studies from India's
+                Arctic research activities.
+            </p>
+
+            <button>
+                Read More
+            </button>
+
+        </div>
+
+
+
+        <!-- Himalayan Research -->
+
+        <div class="research-card">
+
+            <img src="images/himalayan-new.jpg" alt="Himalayan polar research">
+
+            <h3>
+                Himalayan Research
+            </h3>
+
+            <p>
+                Learn about glaciers, climate and
+                environmental research in the Himalayas.
+            </p>
+
+            <button>
+                Read More
+            </button>
+
+        </div>
+
+        </section>
+
+        <!-- =========================
+     MEDIA HUB
+========================== -->
+
+        <section class="media-section" id="media-content">
+
+            <div class="media-header">
+
+                <p>POLAR MEDIA HUB</p>
+
+                <h2>Explore Polar Science</h2>
+
+                <span>
+                    Watch educational videos about India's polar research,
+                    expeditions and scientific discoveries.
+                </span>
+
+            </div>
+
+
+            <div class="video-grid">
+
+
+                <!-- Video 1 -->
+
+                <div class="video-card">
+
+                    <div class="video-container">
+
+                        <iframe src="https://www.youtube.com/embed/qixYXqYoq5A"
+                            title="India's achievements in the Polar Region" allowfullscreen>
+                        </iframe>
+
+                    </div>
+
+                    <div class="video-info">
+
+                        <h3>India's Polar Research Journey</h3>
+
+                        <p>
+                            Explore India's achievements and scientific
+                            research in the Antarctic and Arctic regions.
+                        </p>
+
+                        <span>
+                            🇮🇳 MoES • Polar Research
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Video 2 -->
+
+                <div class="video-card">
+
+                    <div class="video-container">
+
+                        <iframe src="https://www.youtube.com/embed/3h9Ltuxsxug" title="Himadri Arctic Research Station"
+                            allowfullscreen>
+                        </iframe>
+
+                    </div>
+
+                    <div class="video-info">
+
+                        <h3>Inside India's Arctic Presence</h3>
+
+                        <p>
+                            Learn about Himadri, India's first Arctic research
+                            station, and its role in climate research.
+                        </p>
+
+                        <span>
+                            ❄️ MoES • Arctic Research
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+         QUICK NEWS
+    ========================== -->
+
+        <section class="news-section">
+
+            <div class="news-box">
+
+                <h2>
+                    QUICK NEWS & UPDATES
+                </h2>
+
+
+                <div class="news-item">
+
+                    <span>•</span>
+
+                    Decadal Changes in Antarctic Ice Sheet
+
+                </div>
+
+
+                <div class="news-item">
+
+                    <span>•</span>
+
+                    Latest Arctic Climate Research
+
+                </div>
+
+
+                <div class="news-item">
+
+                    <span>•</span>
+
+                    Himalayan Glacier Monitoring
+
+                </div>
+
+
+                <div class="news-item">
+
+                    <span>•</span>
+
+                    New Indian Polar Research Initiatives
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+         POLAR AI
+    ========================== -->
+
+        <section class="ai-section">
+
+            <div class="ai-box">
+
+                <p class="ai-label">
+                    AI POWERED LEARNING
+                </p>
+
+                <h2>
+                    Ask <span>PolarAI</span>
+                </h2>
+
+                <p>
+                    Understand complex polar science
+                    in simple language.
+                </p>
+
+
+                <div class="ai-chat">
+
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="bot-message">
+                            👋 Hello! I'm PolarAI. Ask me anything about the Arctic, Antarctic, or Himalayan regions.
+                        </div>
+                    </div>
+
+                    <div class="ai-search">
+                        <input type="text" id="userInput" placeholder="Ask something about polar science...">
+
+                        <button onclick="askPolarAI()">
+                            Ask AI
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================
+     FOOTER
+========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 PolarHub
+        </p>
+
+        <p>
+            India's Polar Science & Education Portal
+        </p>
+
+    </footer>
+
+
+
+    <!-- =========================
+     JAVASCRIPT
+========================== -->
+
+    <script>
+
+        function showRepository() {
+            const section =
+                document.getElementById("repository-content");
+
+            section.style.display = "block";
+
+            section.scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+
+
+        function askPolarAI() {
+
+            const input =
+                document.getElementById("userInput");
+
+            const messages =
+                document.getElementById("chatMessages");
+
+            const question =
+                input.value.trim().toLowerCase();
+
+
+            if (question === "") {
+                return;
+            }
+
+
+            // Show user's question
+            const userMessage =
+                document.createElement("div");
+
+            userMessage.className = "user-message";
+
+            userMessage.textContent =
+                input.value;
+
+            messages.appendChild(userMessage);
+
+
+            // Find PolarAI response
+            let answer =
+                "I'm still learning about that topic. Try asking me about Antarctica, the Arctic, glaciers, climate change, or polar research.";
+
+
+            if (
+                question.includes("antarctica") ||
+                question.includes("antarctic")
+            ) {
+
+                answer =
+                    "Antarctica is the southernmost continent and is covered by a vast ice sheet. Scientists study it to understand climate change, ice loss, oceans and Earth's climate system.";
+
+            }
+
+            else if (
+                question.includes("arctic")
+            ) {
+
+                answer =
+                    "The Arctic is the region around the North Pole. It includes the Arctic Ocean and surrounding areas. Arctic research helps scientists understand sea ice, climate change and polar ecosystems.";
+
+            }
+
+            else if (
+                question.includes("himalaya") ||
+                question.includes("himalayan") ||
+                question.includes("glacier")
+            ) {
+
+                answer =
+                    "The Himalayan region contains many glaciers that are important for water resources and climate research. Scientists monitor glaciers to understand changes in the mountain environment.";
+
+            }
+
+            else if (
+                question.includes("climate") ||
+                question.includes("climate change")
+            ) {
+
+                answer =
+                    "Polar regions are important indicators of climate change. Changes in ice, snow, oceans and ecosystems can provide scientists with valuable information about our changing climate.";
+
+            }
+
+            else if (
+                question.includes("india") ||
+                question.includes("indian polar")
+            ) {
+
+                answer =
+                    "India conducts scientific research in both the Arctic and Antarctic regions. Indian polar research supports studies of climate, atmosphere, oceans, ice and polar ecosystems.";
+
+            }
+
+            else if (
+                question.includes("ice") ||
+                question.includes("ice melting")
+            ) {
+
+                answer =
+                    "Changes in polar ice are closely monitored by scientists because they can affect sea level, ocean circulation and Earth's climate system.";
+
+            }
+
+            else if (
+                question.includes("hello") ||
+                question.includes("hi") ||
+                question.includes("hey")
+            ) {
+
+                answer =
+                    "Hello! 👋 I'm PolarAI. Ask me something about the Arctic, Antarctic, glaciers or polar science.";
+
+            }
+
+
+
+            // Show PolarAI response
+            const botMessage =
+                document.createElement("div");
+
+            botMessage.className = "bot-message";
+
+            botMessage.textContent =
+                answer;
+
+            messages.appendChild(botMessage);
+
+
+            // Clear input
+            input.value = "";
+
+
+            // Scroll chat to latest message
+            messages.scrollTop =
+                messages.scrollHeight;
+        }
+
+        function showMedia() {
+
+            const section =
+                document.getElementById("media-content");
+
+            section.style.display = "block";
+
+            section.scrollIntoView({
+                behavior: "smooth"
+            });
+
+        }
+
+    </script>
+    ```
+
+</body>
+
+</html>
